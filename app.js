@@ -83,11 +83,11 @@ function showSlider(type){
 }
 
 Contacts.onclick = function(){
-    alert("WESH ben je gek je krijgt dr info ze is ALLEEN VAN MIJ!!!")
+    alert("WESH ben je gek je krijgt dr contacten ze is ALLEEN VAN MIJ!!!")
 }
 
 Info.onclick = function(){
-    alert('enigste ifo dat ik je kan geven is dat DAMMY VAN MIJ IS!!')
+    alert('enigste info dat ik je kan geven is dat DAMMY VAN MIJ IS!!')
 }
 
 });
