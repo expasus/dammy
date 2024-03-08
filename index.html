@@ -6,17 +6,20 @@
     <title>DAMMY</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="image/love-always-wins.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     
 </head>
 <body>
 
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="container">
           <h1 style="font-size: 75px; font-family: VT323;
           font-weight: 400;
           font-style: normal; color: white;"><span class="auto-type"></span></h1>
         </div>
-    </div>
+    </div> -->
+    
 
     <div class="audio">
         <audio id="typingSound" src="key.mp3"></audio>
@@ -32,10 +35,44 @@
                 <a id="Contacts" href="#">Contacts</a>
                 <a id="Info" href="#">Info</a>
             </div>
+
+            <div class="sidebar">
+                <ul>
+                    <li>
+                        <span onclick=hideSidebar() class="material-symbols-outlined">
+                        close
+                        </span>
+                    </li>
+                    <li>
+                        <img width="15px" src="image/flowers-flower.gif" alt="">
+                    </li>
+                    <li>
+                        <button class="liedje-button" id="liedje">Start/Andere Lied</button>
+                    </li>
+                    <li>
+                        <button class="liedje-button" id="mutelied">mute liedje</button>
+                    </li>
+
+                </ul>
+            </div>
+
             <div class="einde">
-                <img width="15px" src="image/flowers-flower.gif" alt="">
-                <button class="liedje-button" id="liedje">Start/Andere Lied</button>
-                <button class="liedje-button" id="mutelied">mute liedje</button>
+                <ul class="einde">
+                    <li class="hideOnMobile">
+                        <img width="15px" src="image/flowers-flower.gif" alt="">
+                    </li>
+                    <li class="hideOnMobile">
+                      <button class="liedje-button" id="liedje">Start/Andere Lied</button>  
+                    </li>
+                    <li class="hideOnMobile"><button class="liedje-button" id="mutelied">mute liedje</button>
+                    </li>
+                    <li class="hideNotMobile">
+                        <span onclick=showSidebar() class="material-symbols-outlined ">
+                            menu
+                        </span>
+                    </li>
+                </ul>
+
             </div>
         </nav>
     </header>
