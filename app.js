@@ -102,7 +102,3 @@ function hideSidebar() {
   sidebar.style.display = "none"
 }
 
-function Skip() {
-  const preloader = document.querySelector(".preloader")
-  preloader.style.display = "none"
-}
