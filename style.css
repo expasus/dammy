@@ -403,8 +403,26 @@ header a{
     .hideNotMobile{
         display: none;
     }
+    .material-symbols-outlined{
+        color: transparent;
+    }
 }
 
+.hideNotMobile2{
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    animation: jump 2s ease-in-out infinite;
+}
+
+@keyframes jump{
+    from{
+        opacity: 100%;
+    }
+    to{
+        opacity: 0%;
+    }
+}
 .sidebar{
     position: fixed;
     top: 0;
